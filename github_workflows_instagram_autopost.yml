@@ -1,0 +1,32 @@
+name: Footboom Universe Auto-Poster
+
+on:
+  schedule:
+    # Runs at 10:00 UTC every day
+    - cron: '0 10 * * *'
+  workflow_dispatch: # Allows manual triggering from GitHub UI
+
+jobs:
+  post_to_instagram:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests openai
+          
+      - name: Run Auto-Poster Script
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+        run: python auto_post.py
