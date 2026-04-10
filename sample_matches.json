@@ -1,0 +1,71 @@
+[
+  {
+    "team1": {
+      "name": "Manchester City",
+      "logo_url": ""
+    },
+    "team2": {
+      "name": "Liverpool",
+      "logo_url": ""
+    },
+    "odds": {
+      "win": 2.1,
+      "draw": 3.4,
+      "loss": 3.25
+    },
+    "key_factors": [
+      "Form: MAN CITY WWD",
+      "Injuries: LIVERPOOL Van Dijk OUT",
+      "Head-to-Head: Evenly Matched"
+    ],
+    "analysis": "High-scoring game expected. Midfield battle crucial.",
+    "prediction": "MAN CITY WIN",
+    "date": "2026-04-10"
+  },
+  {
+    "team1": {
+      "name": "Real Madrid",
+      "logo_url": ""
+    },
+    "team2": {
+      "name": "Barcelona",
+      "logo_url": ""
+    },
+    "odds": {
+      "win": 1.95,
+      "draw": 3.5,
+      "loss": 3.8
+    },
+    "key_factors": [
+      "Form: REAL MADRID WWW",
+      "Injuries: BARCELONA Pedri DOUBTFUL",
+      "Head-to-Head: Real Madrid Dominant"
+    ],
+    "analysis": "Real Madrid in excellent form. Barcelona struggling defensively.",
+    "prediction": "REAL MADRID WIN",
+    "date": "2026-04-11"
+  },
+  {
+    "team1": {
+      "name": "Bayern Munich",
+      "logo_url": ""
+    },
+    "team2": {
+      "name": "Borussia Dortmund",
+      "logo_url": ""
+    },
+    "odds": {
+      "win": 1.85,
+      "draw": 3.6,
+      "loss": 4.2
+    },
+    "key_factors": [
+      "Form: BAYERN MUNICH WWD",
+      "Injuries: DORTMUND Reus OUT",
+      "Head-to-Head: Bayern Dominant"
+    ],
+    "analysis": "Bayern favored. Dortmund needs defensive reinforcement.",
+    "prediction": "BAYERN WIN",
+    "date": "2026-04-12"
+  }
+]
